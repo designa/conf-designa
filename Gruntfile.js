@@ -8,7 +8,7 @@
 // 'test/spec/**/*.js'
 
 module.exports = function (grunt) {
-
+  grunt.loadNpmTasks('grunt-wiredep');
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
 
@@ -62,7 +62,6 @@ module.exports = function (grunt) {
         ]
       }
     },
-
     // The actual grunt server settings
     connect: {
       options: {
@@ -388,9 +387,15 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
-    }
-  });
+    },
 
+    // install Bower dependencies
+    bowerInstall: {
+      target: {
+        src: 'index.html' // point to your HTML file.
+      }
+    },
+  });
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
