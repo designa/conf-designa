@@ -1,0 +1,14 @@
+<section class="sponsors-support-and-realization" id="support" ng-hide="data.release">
+  <div class="row container">
+
+    <div class="col-md-12 sponsors" ng-repeat="sponsorship in data.sponsorships">
+      <div class="col-md-4 header">
+        <h1>{{sponsorship.name}}</h1>
+      </div>
+
+      <div class="col-md-8 sponsors-imgs" ng-repeat="sponsor in sponsorship.sponsors">
+        <a ng-href="{{sponsor.website}}" target="_blank"><img ng-src="{{sponsor.logo.thumb}}"></a>
+      </div>
+    </div>
+  </div>
+</section>

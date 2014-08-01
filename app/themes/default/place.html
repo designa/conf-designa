@@ -1,0 +1,22 @@
+<section class="place" id="place" ng-hide="data.release">
+  <div class="row container">
+    <div class="col-md-12">
+      <div class="location-icon">
+        <img src="images/location_icon.png">
+      </div>
+
+      <h1>O evento vai ser realizado no</h1>
+      <h2>
+      {{data.place}} <br>
+      <small>{{data.address}}</small>
+      </h2>
+
+      <div class="col-md-12 links">
+      <a ng-href="https://www.google.com/maps/search/{{data.address}}" class="veja-g-maps" target="_blank">
+          Veja no google maps
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>

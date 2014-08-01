@@ -1,0 +1,65 @@
+.menu {
+	background: $base-color;
+	z-index: 9999;
+	nav {
+		padding: 15px 0;
+
+		ul {
+			text-align: center;
+			margin: 0;
+			list-style: none;
+			display: inline-block;
+      width: 100%;
+
+			> li {
+				font-weight: bold;
+				font-size: 16px;
+				height: 100%;
+				display: inline-block;
+				width: 150px;
+				text-align: center;
+
+				a {
+					color: #fff;
+				}
+			}
+
+			.rocket {
+				background: $base-color-dark;
+				border-radius: 50%;
+				width: 70px;
+				padding: 11px 0;
+				display: inline-block;
+
+				img {
+					width: 48px;
+				}
+			}
+
+			.moon {
+				img {
+					position: relative;
+					bottom: -15px;
+				}
+			}
+		}
+
+	}
+
+	.container {
+		padding: 0 !important;
+	}
+
+	.show-menu {
+		display: none;
+	}
+}
+
+.menu-fixed {
+	position: fixed;
+	top: 0;
+}
+
+.active {
+	text-decoration: underline;
+}

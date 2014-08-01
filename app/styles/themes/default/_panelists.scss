@@ -1,0 +1,57 @@
+.panelist {
+  padding: 50px 0;
+  background: $secondary-color;
+  text-align: center;
+  border-bottom: solid 1px darken($secondary-color, 10%);
+
+  p {
+    font-size: 25px;
+    color: #464b4c;
+    text-transform: lowercase;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .panelist-description {
+    margin: 50px 0;
+    text-align: left;
+
+    h2, a {
+      display: inline-block;
+    }
+
+    a {
+      text-decoration: none;
+      color: #464b4c;
+      padding-bottom: 1px;
+      border-bottom: solid 1px #464b4c;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+
+    p {
+      text-transform: none;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .zoom-img {
+      overflow: hidden;
+      img {
+        @include zoom;
+        width: 100%;
+        &:hover {
+          -webkit-animation: change_opacity 1s ease;
+          animation: change_opacity 1s ease;
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes change_opacity { 
+  0% { opacity: 0.75;} 
+  100% { opacity: 1;} 
+}

@@ -1,0 +1,55 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin zoom {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  &:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+  }
+}
+
+@mixin linear-gradient($start, $stop) {
+  background: $start;
+  background: -moz-linear-gradient(top,  $start 0%, $stop 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$start), color-stop(100%,$stop));
+  background: -webkit-linear-gradient(top,  $start 0%,$stop 100%);
+  background: -o-linear-gradient(top,  $start 0%,$stop 100%);
+  background: -ms-linear-gradient(top,  $start 0%,$stop 100%);
+  background: linear-gradient(to bottom,  $start 0%,$stop 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$start}', endColorstr='#{$stop}',GradientType=0 );
+}
+
+@mixin transition($args) {
+  transition: #{$args};
+  -webkit-transition: #{$args};
+  -moz-transition: #{$args};
+  -ms-transition: #{$args};
+  -o-transition: #{$args};
+}
+
+@mixin box-shadow($args) {
+  box-shadow: #{$args};
+  -webkit-box-shadow: #{$args};
+  -moz-box-shadow: #{$args};
+  -ms-box-shadow: #{$args};
+  -o-box-shadow: #{$args};
+}

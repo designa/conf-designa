@@ -1,0 +1,24 @@
+<section class="programming" id="programming" ng-hide="data.release">
+  <h1>Programação</h1>
+  <p>Veja só o que vai rolar no evento</p>
+
+  <div class="row container">
+    <div class="col-md-7 centralize">
+
+    <div class="time-and-description" ng-repeat="schedule in data.schedules">
+
+        <div class="programming-time">
+          <p>
+            <span>{{schedule.time | date:'shortTime'}}</span> - {{schedule.talk.name}}
+          </p>
+          <span>{{schedule.talk.speakers}}</span>
+        </div>
+        <div class="programming-description">
+          <div class="marker"></div>
+          <p>{{schedule.talk.description}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

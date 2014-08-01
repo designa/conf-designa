@@ -1,0 +1,18 @@
+<section class="panelist" id="panelist" ng-hide="data.release">
+  <h1>Palestrantes</h1>
+  <p>Venha aprender com esse pessoal</p>
+
+  <div class="row container">
+    <div class="col-md-12">
+
+      <div class="col-md-4 panelist-description" ng-repeat="speaker in data.speakers">
+        <div class="zoom-img">
+          <img ng-src="{{speaker.photos.medium}}">
+        </div>
+        <h2>{{speaker.name}}</h2>
+        <a ng-href="http://www.twitter.com/{{speaker.twitter}}" target="_blank">@{{speaker.twitter}}</a>
+        <p>{{speaker.description}}</p>
+      </div>
+    </div>
+  </div>
+</section>
