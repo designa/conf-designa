@@ -9,5 +9,5 @@
  angular
  .module('confDesignaApp', ['ngDesignaEvents'])
  .config(function(DesignaEventsProvider){
-  DesignaEventsProvider.setEventName('rupy');
+  DesignaEventsProvider.setEventName('agilevale');
 });

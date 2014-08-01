@@ -21,18 +21,39 @@
 
       <div ng-controller="MainCtrl">
         <loader ng-show="loading"></loader>
-        <div class="container">
-          
+        
+        <header class="main-header" id="header">
+          <div id="container" class="container">
 
-          <div class="jumbotron" ng-hide="loading">
-            <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-            <h1>{{data.name}}</h1>
-            <p class="lead">
-              Always a pleasure scaffolding your apps.
-            </p>
-            <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+            <div class="row">
+              <div class="col-md-12 logo">
+              <img ng-src="{{data.logo.original}}">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slogan">
+                  <p class="motto">
+                  {{data.name}} <span>2014</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="date-and-location">
+              <div class="row container">
+                <div class="col-md-12 date">
+                <p>{{data.date.start_at | date:'dd MMM  ' }} </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="call-to-action">
+            <a ng-href="{{data.eventick}}" target="_blank">Garanta seu ingresso</a>
+            </div>
           </div>
-        </div>
+        </header>
 
       </div>
 

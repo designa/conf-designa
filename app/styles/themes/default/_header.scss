@@ -1,0 +1,125 @@
+.main-header {
+  background: $base-color;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+  padding: 50px 0;
+  .call-to-action {
+    text-align: center;
+    padding: 42px 0;
+    a {
+      border-radius: 0.5em;
+      width: 320px;
+      height: 62px;
+      line-height: 62px;
+      border: solid 2px #fff;
+      background: transparent;
+      font-size: 18px;
+      color: #fff;
+      display: inline-block;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: none;
+        background: white;
+        color: #333;
+      }
+    }
+  }
+
+  .becoming-sponsor {
+    text-align: center;
+    font-size: 14px;
+
+    a {
+      text-decoration: underline;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1em;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.register {
+  text-align: right;
+  padding: 50px 50px 25px 50px;
+  a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
+
+.logo {
+  margin-top: 5%;
+  text-align: center;
+  img {
+    min-width: 200px;
+    max-width: 400px;
+    width: 20%;
+  }
+}
+
+.slogan {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 12px;
+}
+
+.slogan .motto {
+  text-transform: lowercase;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  letter-spacing: -2px;
+
+  span {
+    color: #161718;
+  }
+}
+
+.date-and-location {
+  padding: 10px 0;
+  .date, .location {
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 10px 0;
+
+    p {
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
+
+.button-action {
+  @include transition (.5s);
+  color: $white;
+  font-family: $base-font-black;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 320px;
+  height: 70px;
+  margin-top: 50px;
+  padding-top: 30px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3); /* 30% Black */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    @include transition (.5s);
+    background: rgba(0, 0, 0, 0.7);  /* 70% Black */
+  }
+}
+

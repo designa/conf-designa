@@ -7971,7 +7971,7 @@ button.close {
     display: none !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/base\/_browserhappy\.scss}line{font-family:\000031}}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7979,45 +7979,154 @@ button.close {
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-/* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000318}}
-.jumbotron {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/base\/_loader\.scss}line{font-family:\000031}}
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000322}}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+  padding-top: 25%;
+  color: #fff;
+  z-index: 999;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000331}}
-  .container {
-    max-width: 730px;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\000031}}
+.main-header {
+  background: #f03932;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+  padding: 50px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\000039}}
+.main-header .call-to-action {
+  text-align: center;
+  padding: 42px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000312}}
+.main-header .call-to-action a {
+  border-radius: 0.5em;
+  width: 320px;
+  height: 62px;
+  line-height: 62px;
+  border: solid 2px #fff;
+  background: transparent;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000323}}
+.main-header .call-to-action a:hover {
+  text-decoration: none;
+  background: white;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000331}}
+.main-header .becoming-sponsor {
+  text-align: center;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000335}}
+.main-header .becoming-sponsor a {
+  text-decoration: underline;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
 
-  /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000338}}
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000345}}
+.container {
+  margin: 0 auto;
+}
 
-  /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000343}}
-  .header {
-    margin-bottom: 30px;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000349}}
+.register {
+  text-align: right;
+  padding: 50px 50px 25px 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000352}}
+.register a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/main\.scss}line{font-family:\0000347}}
-  .jumbotron {
-    margin-top: 20px;
-    border-bottom: 0;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000359}}
+.logo {
+  margin-top: 5%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000362}}
+.logo img {
+  min-width: 200px;
+  max-width: 400px;
+  width: 20%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000369}}
+.slogan {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000375}}
+.slogan .motto {
+  text-transform: lowercase;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  letter-spacing: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000382}}
+.slogan .motto span {
+  color: #161718;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000387}}
+.date-and-location {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000389}}
+.date-and-location .date, .date-and-location .location {
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\0000395}}
+.date-and-location .date p, .date-and-location .location p {
+  color: #fff;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\00003102}}
+.button-action {
+  transition: 0.5s;
+  color: #e9f0e1;
+  font-family: "brandon_grotesqueblack", Arial, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 320px;
+  height: 70px;
+  margin-top: 50px;
+  padding-top: 30px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  /* 30% Black */
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\00003120}}
+.button-action:hover {
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.7);
+  /* 70% Black */
 }
