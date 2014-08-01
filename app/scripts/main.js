@@ -6,7 +6,7 @@ $(document).ready(function(){
     var menuTop = $('.menu').offset().top;
 
     var fixMenu = function(){
-        var scrollTop = $(window).scrollTop()+110;
+        var scrollTop = $(window).scrollTop()-100;
 
         if (scrollTop > menuTop) {
             $('.show-menu').parent().addClass('menu-fixed');

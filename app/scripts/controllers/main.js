@@ -3,11 +3,11 @@
 angular.module('confDesignaApp')
 .controller('MainCtrl', function ($scope, DesignaEvents, settings) {
 
-  $scope.header = 'themes/'+settings.theme+'/'+settings.partials.header;
-  $scope.panelists = 'themes/'+settings.theme+'/'+settings.partials.panelists;
-  $scope.programing = 'themes/'+settings.theme+'/'+settings.partials.programing;
-  $scope.place = 'themes/'+settings.theme+'/'+settings.partials.place;
-  $scope.sponsors = 'themes/'+settings.theme+'/'+settings.partials.sponsors;
+  $scope.header = 'views/'+settings.theme+'/'+settings.partials.header;
+  $scope.panelists = 'views/'+settings.theme+'/'+settings.partials.panelists;
+  $scope.programing = 'views/'+settings.theme+'/'+settings.partials.programing;
+  $scope.place = 'views/'+settings.theme+'/'+settings.partials.place;
+  $scope.sponsors = 'views/'+settings.theme+'/'+settings.partials.sponsors;
 
   $scope.loading = true;
   

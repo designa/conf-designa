@@ -9,7 +9,7 @@
 angular.module('confDesignaApp')
   .directive('loader', function () {
     return {
-      templateUrl: 'scripts/directives/loader.html',
+      templateUrl: 'views/loader.html',
       restrict: 'E',
     };
   });
