@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/bower_components\/bootstrap-sass-official\/assets\/stylesheets\/bootstrap\/_normalize\.scss}line{font-family:\000039}}
 html {
   font-family: sans-serif;
@@ -7991,6 +7992,137 @@ button.close {
   z-index: 999;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\000033}}
+html {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\000037}}
+html, body {
+  overflow-x: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000311}}
+body {
+  background: #f03932;
+  position: relative;
+  color: #e9f0e1;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000320}}
+h1, h2 {
+  color: #464b4c;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000325}}
+h1 {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000329}}
+h2, span, p {
+  color: #464b4c;
+  font-family: "Raleway", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000334}}
+section {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000338}}
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 16px;
+  color: #fff;
+  background: #df1810;
+  padding: 10px 20px;
+  z-index: 9999;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000350}}
+.back-to-top:hover {
+  color: #fff;
+  background: #df1810;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_defaults\.scss}line{font-family:\0000355}}
+.back-to-top:active {
+  background: #df1810;
+}
+
+@font-face {
+  font-family: 'FuturaBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/futura_bold_bt-webfont.eot");
+  src: url("fonts/futura_bold_bt-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/futura_bold_bt-webfont.woff") format("woff"), url("fonts/futura_bold_bt-webfont.ttf") format("truetype"), url("fonts/futura_bold_bt-webfont.svg#avalonbold") format("svg");
+}
+
+@font-face {
+  font-family: 'brandon_grotesqueblack';
+  src: url("fonts/brandon_blk-webfont.eot");
+  src: url("fonts/brandon_blk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/brandon_blk-webfont.woff") format("woff"), url("fonts/brandon_blk-webfont.ttf") format("truetype"), url("fonts/brandon_blk-webfont.svg#brandon_grotesqueblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquelight';
+  src: url("fonts/brandon_light-webfont.eot");
+  src: url("fonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/brandon_light-webfont.woff") format("woff"), url("fonts/brandon_light-webfont.ttf") format("truetype"), url("fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_buttons\.scss}line{font-family:\0000314}}
+.button-fb {
+  transition: all ease-in 150ms;
+  -webkit-transition: all ease-in 150ms;
+  -moz-transition: all ease-in 150ms;
+  -ms-transition: all ease-in 150ms;
+  -o-transition: all ease-in 150ms;
+  background-color: #3b5998;
+  color: #e9f0e1;
+  font-size: 1.5em;
+  padding: .5em 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_buttons\.scss}line{font-family:\000038}}
+.button-fb:hover {
+  background-color: #344e86;
+  color: #dfe9d3;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_buttons\.scss}line{font-family:\0000318}}
+.button-2013 {
+  transition: all ease-in 150ms;
+  -webkit-transition: all ease-in 150ms;
+  -moz-transition: all ease-in 150ms;
+  -ms-transition: all ease-in 150ms;
+  -o-transition: all ease-in 150ms;
+  background-color: #f36762;
+  color: #e9f0e1;
+  font-size: 1.5em;
+  padding: .5em 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_buttons\.scss}line{font-family:\000038}}
+.button-2013:hover {
+  background-color: #f2504a;
+  color: #dfe9d3;
+  text-decoration: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\000031}}
 .main-header {
   background: #f03932;
@@ -8108,6 +8240,10 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\00003102}}
 .button-action {
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   color: #e9f0e1;
   font-family: "brandon_grotesqueblack", Arial, sans-serif;
   font-size: 28px;
@@ -8127,6 +8263,356 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_header\.scss}line{font-family:\00003120}}
 .button-action:hover {
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   background: rgba(0, 0, 0, 0.7);
   /* 70% Black */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\000031}}
+.panelist {
+  padding: 50px 0;
+  background: #dddddd;
+  text-align: center;
+  border-bottom: solid 1px #c4c4c4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\000037}}
+.panelist p {
+  font-size: 25px;
+  color: #464b4c;
+  text-transform: lowercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000313}}
+.panelist h1 {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000317}}
+.panelist .panelist-description {
+  margin: 50px 0;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000321}}
+.panelist .panelist-description h2, .panelist .panelist-description a {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000325}}
+.panelist .panelist-description a {
+  text-decoration: none;
+  color: #464b4c;
+  padding-bottom: 1px;
+  border-bottom: solid 1px #464b4c;
+  font-size: 20px;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000334}}
+.panelist .panelist-description p {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000340}}
+.panelist .panelist-description .zoom-img {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000342}}
+.panelist .panelist-description .zoom-img img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_mixins\.scss}line{font-family:\0000318}}
+.panelist .panelist-description .zoom-img img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_panelists\.scss}line{font-family:\0000345}}
+.panelist .panelist-description .zoom-img img:hover {
+  -webkit-animation: change_opacity 1s ease;
+  animation: change_opacity 1s ease;
+}
+
+@-webkit-keyframes change_opacity {
+  /* line 55, ../../app/styles/themes/default/_panelists.scss */
+  0% {
+    opacity: 0.75;
+  }
+
+  /* line 56, ../../app/styles/themes/default/_panelists.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\000031}}
+.programming {
+  background: #fff;
+  padding: 25px 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\000036}}
+.programming p {
+  font-size: 25px;
+  color: #464b4c;
+  text-transform: lowercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000312}}
+.programming .centralize {
+  float: none;
+  margin: 50px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000318}}
+.programming .time-and-description:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000324}}
+.programming .time-and-description .programming-time, .programming .time-and-description .programming-description {
+  display: inline-block;
+  width: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000328}}
+.programming .time-and-description .programming-time p, .programming .time-and-description .programming-description p {
+  text-transform: none;
+  font-size: 18px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000335}}
+.programming .time-and-description .programming-time {
+  padding-right: 4%;
+  text-align: right;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000340}}
+.programming .time-and-description .programming-time span {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000346}}
+.programming .time-and-description .programming-description {
+  text-align: left;
+  padding: 25px 0 25px 4%;
+  margin-left: 4%;
+  border-left: solid 5px #ccc;
+  position: relative;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000353}}
+.programming .time-and-description .programming-description .marker {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eee;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_programing\.scss}line{font-family:\0000365}}
+.programming .time-and-description .programming-description .marker.active {
+  background: #f03932;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\000031}}
+.place {
+  background: #f03932;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\000037}}
+.place .location-icon {
+  position: relative;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000311}}
+.place .location-icon:after {
+  content: "";
+  position: absolute;
+  left: -2.25px;
+  bottom: -3px;
+  width: 26px;
+  height: 7px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000323}}
+.place .location-icon img {
+  position: relative;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000329}}
+.place .img-place {
+  max-width: 500px;
+  width: 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000334}}
+.place h1, .place h2 {
+  margin: 30px 0;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000339}}
+.place h1 {
+  font-size: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000343}}
+.place h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000348}}
+.place .links {
+  float: none;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000352}}
+.place .links .site-do-place, .place .links .veja-g-maps {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0;
+  display: inline-block;
+  padding-bottom: 1px;
+  text-transform: lowercase;
+  border-bottom: solid 1px transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_place\.scss}line{font-family:\0000360}}
+.place .links .site-do-place:hover, .place .links .veja-g-maps:hover {
+  border-color: #fff;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\000031}}
+.sponsors-support-and-realization {
+  background: #fff;
+  padding: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\000035}}
+.sponsors-support-and-realization img {
+  max-width: 143px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\000039}}
+.sponsors-support-and-realization h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\0000315}}
+.sponsors-support-and-realization .sponsors, .sponsors-support-and-realization .support, .sponsors-support-and-realization .realization {
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\0000318}}
+.sponsors-support-and-realization .sponsors .header, .sponsors-support-and-realization .support .header, .sponsors-support-and-realization .realization .header {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  padding-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\0000325}}
+.sponsors-support-and-realization .sponsors .sponsors-imgs, .sponsors-support-and-realization .sponsors .support-imgs, .sponsors-support-and-realization .sponsors .realization-imgs, .sponsors-support-and-realization .support .sponsors-imgs, .sponsors-support-and-realization .support .support-imgs, .sponsors-support-and-realization .support .realization-imgs, .sponsors-support-and-realization .realization .sponsors-imgs, .sponsors-support-and-realization .realization .support-imgs, .sponsors-support-and-realization .realization .realization-imgs {
+  padding: 25px 0;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_sponsors\.scss}line{font-family:\0000332}}
+.sponsors-support-and-realization .support .support-imgs {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\000031}}
+.menu {
+  background: #f03932;
+  z-index: 9999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\000034}}
+.menu nav {
+  padding: 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\000037}}
+.menu nav ul {
+  text-align: center;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000314}}
+.menu nav ul > li {
+  font-weight: bold;
+  font-size: 16px;
+  height: 100%;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000322}}
+.menu nav ul > li a {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000327}}
+.menu nav ul .rocket {
+  background: #df1810;
+  border-radius: 50%;
+  width: 70px;
+  padding: 11px 0;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000334}}
+.menu nav ul .rocket img {
+  width: 48px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000340}}
+.menu nav ul .moon img {
+  position: relative;
+  bottom: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000349}}
+.menu .container {
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000353}}
+.menu .show-menu {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000358}}
+.menu-fixed {
+  position: fixed;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_menu\.scss}line{font-family:\0000363}}
+.active {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_footer\.scss}line{font-family:\000031}}
+footer {
+  background: #ddd;
+  padding: 50px 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jmscarpa\/Projects\/designa\/conf-designa\/app\/styles\/themes\/default\/_footer\.scss}line{font-family:\000035}}
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
 }
